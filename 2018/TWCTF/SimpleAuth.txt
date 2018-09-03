@@ -1,0 +1,8 @@
+This is a warmup web problem.
+
+At line 7, we see that parse_str function is used without its second parameter, $result.
+This results in parsed parameters being saved as variables in the current scope, which is considered as "register globals".
+
+Thus, by sending GET request as: http://simpleauth.chal.ctf.westerns.tokyo?action=auth&hashed_password=c019f6e5cd8aa0bbbcc6e994a54c757e, we are able to set the variables as we wish to and get the flag.
+
+flag: TWCTF{d0_n0t_use_parse_str_without_result_param}
