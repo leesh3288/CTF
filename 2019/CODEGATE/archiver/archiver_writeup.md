@@ -51,7 +51,7 @@ print(p.stdout.read())
 delete()
 ```
 
-The binary is programmed by C++. It has `Partial RELRO`, `NX` and `PIE` enabled.
+The binary is programmed in C++. It has `Partial RELRO`, `NX` and `PIE` enabled.
 ```
 Arch:     amd64-64-little
 RELRO:    Partial RELRO
