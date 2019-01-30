@@ -1,7 +1,7 @@
 mini converter
 ==================
 
-We are given the following ruby code:
+We are given the following Ruby code:
 ```ruby
 flag = "FLAG{******************************}"
 # Can you read this? really???? lol
