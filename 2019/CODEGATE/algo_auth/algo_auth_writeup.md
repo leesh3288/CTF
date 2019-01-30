@@ -51,6 +51,7 @@ for i in range(100):
         assert(len(DP[-1]) == 7)
     assert(len(DP) == 7)
     
+    # O(n^3), n=7
     for j in range(1, 7):
         colsum = [0]*8
         for k in range(7):
@@ -70,10 +71,9 @@ for i in range(100):
     flag += chr(res)
 
 assert(len(flag)==100)
-print flag.decode('base64')
+print(flag.decode('base64'))
 
 p.interactive()
-
 ```
 
 **FLAG : `g00ooOOd_j0B!!!___uncomfort4ble__s3curity__is__n0t__4__security!!!!!`**
