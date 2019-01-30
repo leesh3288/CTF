@@ -40,6 +40,6 @@ for i in range(100):
     flag += chr(res)
 
 assert(len(flag)==100)
-print flag.decode('base64')
+print(flag.decode('base64'))
 
 p.interactive()
