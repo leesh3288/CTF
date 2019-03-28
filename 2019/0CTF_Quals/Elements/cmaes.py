@@ -1,10 +1,9 @@
 import cma
 from math import sqrt
 
-MULT = 1
-ks = 0x391BC2164F0A*MULT
-kr = 1.940035480806554e13*MULT
-kR = 4.777053952827391e13*MULT
+ks = 0x391BC2164F0A
+kr = 1.940035480806554e13
+kR = 4.777053952827391e13
 
 def radiusFit(s):
     v19 = ks*ks + s[0]*s[0] - s[1]*s[1]
@@ -19,6 +18,6 @@ def radiusFit(s):
     print(distr, distR)
     return abs(distr) + abs(distR)
 
-es = cma.CMAEvolutionStrategy([70789268583970.951*MULT, 95523433899867.88*MULT], 0.2)
+es = cma.CMAEvolutionStrategy([70789268583970.951, 95523433899867.88], 0.2)
 es.optimize(radiusFit, min_iterations=500)
 print(es.result_pretty())
