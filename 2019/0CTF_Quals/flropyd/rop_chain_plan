@@ -1,0 +1,86 @@
+mov [I] 0
+label FI2:
+
+mov [J] 0
+label FJ2:
+
+mov [K] 0
+label FK2:
+
+// if (conn[j][k] > conn[j][i] + conn[i][k]) then conn[j][k] = conn[j][i] + conn[i][k]
+mov $rax [J]
+mov [i1] $rax
+shl6 [i1]
+set $rdi dummy_writable_addr
+mov $rcx [K]
+add [i1] $rcx
+mov $rdx [i1]
+qword_get(CONN)
+mov [v1] $rax
+
+mov $rax [J]
+mov [i2] $rax
+shl6 [i2]
+set $rdi dummy_writable_addr
+mov $rcx [I]
+add [i2] $rcx
+mov $rdx [i2]
+qword_get(CONN)
+mov [v2] $rax
+
+mov $rax [I]
+mov [i3] $rax
+shl6 [i3]
+set $rdi dummy_writable_addr
+mov $rcx [K]
+add [i3] $rcx
+mov $rdx [i3]
+qword_get(CONN)
+mov [v3] $rax
+
+mov $rdi [v3]
+mov [vsum] $rdi
+mov $rdi [v2]
+add [vsum] $rdi
+mov $rdx [vsum]
+mov $rdi [v1]
+mov $rax [vsum]
+sub $rax $rdi
+mov $rax [v1]
+cmovb $rax $rdx  // 0x000000000012344b : cmovb rax, rdx ; ret
+mov [res] $rax
+mov $rdi [res]
+mov $rdx [i1]
+qword_set(CONN)
+
+// for-loop pivoting
+save_rsp()
+mov [ite] $rsi
+mov [lim] $rsi
+set $rcx to some appropriate + offset
+add [ite] $rcx  // where to jump if finished (label FK)
+mov $rax [lim]
+set $rdi to some appropriate - offset (as positive val)
+sub $rax $rdi
+mov [lim] $rax  // where to jump if not finished (label FK2)
+
+inc [K]
+mov $rax [K]
+sub $eax [N]  // if ZF then pivot $rsp to [ite], else [lim]
+mov $rdx, [lim]
+mov $rax, [ite]
+cmovne $rax, $rdx
+mov [piv] $rax
+set $rdi 0x10
+add [piv] $rdi
+mov $rbp, [piv]
+stack_pivot()
+
+label FK:
+(do above, now with j instead of k)
+
+label FJ:
+(do above, now with i instead of k)
+
+label FI:
+raise(SIGTRAP)
