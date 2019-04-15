@@ -1,0 +1,92 @@
+encode_prologue:
+   0x133700000000:	push   %rsi
+   0x133700000001:	push   %rdi
+   0x133700000002:	push   %rbp
+   0x133700000003:	push   %r8
+   0x133700000005:	push   %r9
+   0x133700000007:	push   %r10
+   0x133700000009:	push   %r11
+   0x13370000000b:	push   %r12
+   0x13370000000d:	push   %r13
+   0x13370000000f:	push   %r14
+   0x133700000011:	push   %r15
+   0x133700000013:	movabs $0x133700000000,%rsi
+   0x13370000001d:	movabs $0x414100000000,%rdi
+   0x133700000027:	movabs $(the_vm + 0x1008),%rbp
+
+encode_epilogue:
+   0x133700000000:	pop    %r15
+   0x133700000002:	pop    %r14
+   0x133700000004:	pop    %r13
+   0x133700000006:	pop    %r12
+   0x133700000008:	pop    %r11
+   0x13370000000a:	pop    %r10
+   0x13370000000c:	pop    %r9
+   0x13370000000e:	pop    %r8
+   0x133700000010:	pop    %rbp
+   0x133700000011:	pop    %rdi
+   0x133700000012:	pop    %rsi
+   (+ret)
+
+encode_builtin (funcnum | regnum):
+   // funcnum == 0(builtin_bc) or 8(builtin_time)
+   // regnum == 0(%r8) ~ 7(%r15)
+   0x133700000001:	push   %rdi
+   0x133700000002:	push   %rsi
+   0x133700000003:	push   %r8
+   0x133700000005:	push   %r9
+   0x133700000007:	push   %r10
+   0x133700000009:	push   %r11
+   0x13370000000b:	mov    %r8d,%edi
+   0x13370000000e:	mov    %r9d,%esi
+   0x133700000011:	mov    %r10d,%edx
+   0x133700000014:	mov    %r11d,%ecx
+   0x133700000017:	callq  *funcnum(%rbp)
+   0x13370000001a:	pop    %r11
+   0x13370000001c:	pop    %r10
+   0x13370000001e:	pop    %r9
+   0x133700000020:	pop    %r8
+   0x133700000022:	pop    %rsi
+   0x133700000023:	pop    %rdi
+   0x133700000024:	mov    %rax,regnum
+
+encode_cdq (rn2 | rn1):
+   // rn2 == (0<<3)(%r8d) ~ (7<<3)(%r15d)
+   // rn1 == 0(%r8) ~ 7(%r15)
+   0x133700000001:	movslq rn2,rn1
+
+encode_add/sub/and/move (rn2 | rn1):
+   // rn2 == (0<<3)(%r8) ~ (7<<3)(%r15)
+   // rn1 == 0(%r8) ~ 7(%r15)
+   0x133700000001:	add/sub/and/mov    rn2,rn1
+
+encode_shl/shr (rn2 | rn1):
+   // rn2 == (0<<3)(%r8b) ~ (7<<3)(%r15b)
+   // rn1 == 0(%r8) ~ 7(%r15)
+   0x133700000001:	mov    rn2,%cl
+   0x133700000004:	shl    %cl,rn1  => rn1 (<<=/>>=) rn2
+
+encode_movec (rn1, imm32):
+   // rn1 == 0(%r8) ~ 7(%r15)
+   // imm32: 4 bytes (big endian)
+   0x133700000001:	mov    $imm32,rn
+
+encode_load (rn2 | rn1):
+   // rn2 == (0<<3)(%r8d) ~ (7<<3)(%r15d)
+   // rn1 == 0(%r8) ~ 7(%r15)
+   0x133700000001:	mov    rn2,%eax
+   0x133700000004:	mov    (%rdi,%rax,1),rn1
+
+encode_store (rn2 | rn1):
+   // rn2 == (0<<3)(%r8) ~ (7<<3)(%r15)
+   // rn1 == 0(%r8d) ~ 7(%r15d)
+   0x133700000001:	mov    rn1,%eax
+   0x133700000004:	mov    rn2,(%rdi,%rax,1)
+
+encode_loop (rn2, imm32_1, imm32_2):
+   // rn2 == (0<<3)(%r8) ~ (7<<3)(%r15)
+   // imm32_1: 4 bytes (big endian)
+   // imm32_2: 4 bytes (big endian), payload instruction start addr (jump target)
+   0x13370000000e:	mov    $imm32_1,%rax
+   0x133700000015:	cmp    %rax,rn
+   0x133700000018:	jle    (addr of instruction that corresponds to imm32_2 payload instruction start addr) => jump(loop) if rn <= imm32_1, break from loop if rn > imm32_1
