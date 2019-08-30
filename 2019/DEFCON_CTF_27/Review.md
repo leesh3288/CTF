@@ -54,6 +54,7 @@ Honestly, this day was a disaster for me - until the `bitflip-conjecture` (KotH)
 1. I like all my registers set to zero
 2. I want them pointing to the middle of a 64KB R/W region of memory)
 3. Dont bother. Leave them as they are
+
 After the lesson learned painfully on `ropship`, we split into two different roles: some worked on making the shortest code, and some other teammates and I tried to find out a clever way to somehow evade the flipped part. We first started submitting the short code with mode 1 and managed to get some points.
 
 One of my teammates thought of planting three identical code and using `repe` prefix to find the flipped location, then recover or simply run non-flipped code section. This gave me a sparking idea - if we use mode 3, wouldn't there be information about the flipped byte/bit? And yes sure there is, in `rdx` register! I quickly came up with a 5 byte jump code that jumps to unflipped code between two initially identical code. Initially, this code was resistant except 25 bits. From there on, we fiddled with nop-sledding and easily reached 10 bits. Until almost the last round at the end of the day we stayed in the first place, sqeezing out quite a large amount of points.
