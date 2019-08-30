@@ -94,6 +94,6 @@ Overall, the challenges were fun, especially KotH problems. Below is how I **per
 
 1. On `ropship`, trying to come up with a hard strategy from the start was a miscalcuated move; KotH is not about devising a one-stop solution, but is about building up a solution from something that barely works ASAP.
 2. Maybe working on KotH problems so much wasn't a tactical move? Attack and Defense scores take up 40% of the total score respectively, and KotH only takes up 20% of maximum score. Tackling an A&D problem is 4 times more worthy than tackling a KotH problem with just the max scores compared. But our team scored about 40% of our total score from KotH and the remaining 60% from defense, so maybe working on KotH still paid off...
-3. I and our team need to be better prepared for such on-site CTF competition. There are several factors to improve:
+3. Our team and I need to be better prepared for such on-site CTF competition. There are several factors to improve:
     1. From the start and throughout the competition, our server & VPN connection was constantly dropping, and the server had IP constantly changing. It was grudging to access services.
     2. Our hardware isn't sufficiently prepared. We had no packet sniffing & MitM friendly router to use, which costed us a whole challenge `dooom`. We had no machine with sufficient computing power to try bruteforce in `AI Han Solo` or `bitflip-conjecture`. Maybe spinning up a compute cloud instance if necessary might suffice.
