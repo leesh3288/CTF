@@ -1,0 +1,8 @@
+# Compile Option (Windows)
+devenv.exe winterpreter.sln /Rebuild "Release|x64"
+
+# Build Docker (Linux)
+sudo docker build -t winterpreter .
+
+# Run Docker (Linux)
+sudo docker run --name winterpreter --privileged -d -p54321:54321 winterpreter
