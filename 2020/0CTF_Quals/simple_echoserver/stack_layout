@@ -1,0 +1,80 @@
+pwndbg> stack 0x50
+00:0000│ rsp  0x7fffb0009548 —▸ 0x56243511c41a ◂— nop   
+01:0008│      0x7fffb0009550 ◂— 0x0
+02:0010│      0x7fffb0009558 —▸ 0x56243511f160 ◂— 0x2500616161616161 /* 'aaaaaa' */
+03:0018│ rbp  0x7fffb0009560 —▸ 0x7fffb0009680 —▸ 0x7fffb0009688 —▸ 0x56243511c4d0 ◂— mov    eax, 0 (7)
+04:0020│      0x7fffb0009568 —▸ 0x56243511c443 ◂— lea    rdi, [rip + 0xc5b]
+05:0028│      0x7fffb0009570 ◂— 0x0
+... ↓
+07:0038│      0x7fffb0009580 —▸ 0x7fffb0009680 —▸ 0x7fffb0009688 —▸ 0x56243511c4d0 ◂— mov    eax, 0
+08:0040│      0x7fffb0009588 —▸ 0x7fefd79dda00 (_IO_2_1_stdin_) ◂— 0xfbad208b
+09:0048│      0x7fffb0009590 ◂— 0xd68 /* 'h\r' */
+0a:0050│      0x7fffb0009598 —▸ 0x7fefd767f148 (_IO_file_underflow+296) ◂— test   rax, rax
+0b:0058│      0x7fffb00095a0 ◂— 0xd705da00
+0c:0060│      0x7fffb00095a8 ◂— 0xffffffffffffffff
+0d:0068│      0x7fffb00095b0 —▸ 0x56243511c0f0 ◂— endbr64 
+0e:0070│      0x7fffb00095b8 ◂— 0xa /* '\n' */
+0f:0078│      0x7fffb00095c0 —▸ 0x7fffb0009660 —▸ 0x7fffb0009680 —▸ 0x7fffb0009688 —▸ 0x56243511c4d0 ◂— ...
+10:0080│      0x7fffb00095c8 —▸ 0x56243511c0f0 ◂— endbr64 
+11:0088│      0x7fffb00095d0 —▸ 0x7fffb0009780 ◂— 0xf040
+12:0090│      0x7fffb00095d8 ◂— 0x0
+13:0098| 
+14:00a0│      0x7fffb00095e8 —▸ 0x56243511c348 ◂— mov    rcx, qword ptr [rbp - 0x18]
+15:00a8│      0x7fffb00095f0 —▸ 0x7fefd79dda00 (_IO_2_1_stdin_) ◂— 0xfbad208b
+16:00b0│      0x7fffb00095f8 —▸ 0x7fffb0009601 ◂— 0x8000000000000000
+17:00b8│      0x7fffb0009600 ◂— 0x31 /* '1' */
+18:00c0│      0x7fffb0009608 —▸ 0x7fffb0009780 ◂— 0xf040
+19:00c8│      0x7fffb0009610 ◂— 0x0
+1a:00d0│      0x7fffb0009618 —▸ 0x7fefd76803f2 (_IO_default_uflow+50) ◂— cmp    eax, -1
+1b:00d8│      0x7fffb0009620 ◂— 0x36 /* '6' */
+1c:00e0│      0x7fffb0009628 —▸ 0x56243511f166 ◂— 0x2563256325632500 (32)
+1d:00e8│      0x7fffb0009630 —▸ 0x7fffb0009660 —▸ 0x7fffb0009680 —▸ 0x7fffb0009688 —▸ 0x56243511c4d0 ◂— ... (33)
+1e:00f0│      0x7fffb0009638 —▸ 0x56243511c28d ◂— mov    r12d, eax
+1f:00f8│      0x7fffb0009640 ◂— 0x1003511d029
+20:0100│      0x7fffb0009648 ◂— 0xd0db3946fe7d5a00
+21:0108│      0x7fffb0009650 ◂— 0x0
+... ↓
+23:0118│      0x7fffb0009660 —▸ 0x7fffb0009680 —▸ 0x7fffb0009688 —▸ 0x56243511c4d0 ◂— mov    eax, 0 (39)
+24:0120│      0x7fffb0009668 —▸ 0x56243511c3b3 ◂— mov    rdx, qword ptr [rbp - 8]
+25:0128│      0x7fffb0009670 —▸ 0x7fffb0009780 ◂— 0xf040
+26:0130│      0x7fffb0009678 ◂— 0xd0db3946fe7d5a00
+27:0138│      0x7fffb0009680 —▸ 0x7fffb0009688 —▸ 0x56243511c4d0 ◂— mov    eax, 0 (43)
+28:0140│      0x7fffb0009688 —▸ 0x56243511c4d0 ◂— mov    eax, 0
+29:0148│      0x7fffb0009690 —▸ 0x7fffb0009780 ◂— 0xf040 (45)
+2a:0150│      0x7fffb0009698 ◂— 0x0
+2b:0158│      0x7fffb00096a0 —▸ 0x56243511c4e0 ◂— endbr64 (47)
+2c:0160│      0x7fffb00096a8 —▸ 0x7fefd7613b97 (__libc_start_main+231) ◂— mov    edi, eax (48)
+2d:0168│      0x7fffb00096b0 ◂— 0x1
+2e:0170│      0x7fffb00096b8 —▸ 0x7fffb0009788 —▸ 0x7fffb0009ecf ◂— './simple_echoserver'
+2f:0178│      0x7fffb00096c0 ◂— 0x100008000
+30:0180│      0x7fffb00096c8 —▸ 0x56243511c4b2 ◂— push   rbp
+31:0188│      0x7fffb00096d0 ◂— 0x0
+32:0190│      0x7fffb00096d8 ◂— 0x3c099dfb0939b796
+33:0198│      0x7fffb00096e0 —▸ 0x56243511c0f0 ◂— endbr64 
+34:01a0│      0x7fffb00096e8 —▸ 0x7fffb0009780 ◂— 0xf040
+35:01a8│      0x7fffb00096f0 ◂— 0x0
+... ↓
+37:01b8│      0x7fffb0009700 ◂— 0x6fbe97d9ad99b796
+38:01c0│      0x7fffb0009708 ◂— 0x6f9e591af667b796
+39:01c8│      0x7fffb0009710 ◂— 0x7fff00000000
+3a:01d0│      0x7fffb0009718 ◂— 0x0
+... ↓
+3c:01e0│      0x7fffb0009728 —▸ 0x7fefd79f3733 (_dl_init+259) ◂— add    r14, 8
+3d:01e8│      0x7fffb0009730 —▸ 0x7fefd79d9638 (__elf_set___libc_subfreeres_element_free_mem__) —▸ 0x7fefd778be10 (free_mem) ◂— push   r13
+3e:01f0│      0x7fffb0009738 ◂— 0x101c2e
+3f:01f8│      0x7fffb0009740 ◂— 0x0
+... ↓
+42:0210│      0x7fffb0009758 —▸ 0x56243511c0f0 ◂— endbr64 
+43:0218│      0x7fffb0009760 —▸ 0x7fffb0009780 ◂— 0xf040
+44:0220│      0x7fffb0009768 —▸ 0x56243511c11e ◂— hlt    
+45:0228│      0x7fffb0009770 —▸ 0x7fffb0009778 ◂— 0x1c
+46:0230│      0x7fffb0009778 ◂— 0x1c
+47:0238│ r13  0x7fffb0009780 ◂— 0xf040  # argc (75)
+48:0240│      0x7fffb0009788 —▸ 0x7fffb0009ecf ◂— './simple_echoserver'
+49:0248│      0x7fffb0009790 ◂— 0x0
+4a:0250│      0x7fffb0009798 —▸ 0x7fffb0009ee3 ◂— 'ORIGINAL_XDG_CURRENT_DESKTOP=ubuntu:GNOME'
+4b:0258│      0x7fffb00097a0 —▸ 0x7fffb0009f0d ◂— 'LC_NUMERIC=en_US.UTF-8'
+4c:0260│      0x7fffb00097a8 —▸ 0x7fffb0009f24 ◂— 'QT4_IM_MODULE=xim'
+4d:0268│      0x7fffb00097b0 —▸ 0x7fffb0009f36 ◂— 'GJS_DEBUG_OUTPUT=stderr'
+4e:0270│      0x7fffb00097b8 —▸ 0x7fffb0009f4e ◂— 'LESSOPEN=| /usr/bin/lesspipe %s'
+4f:0278│      0x7fffb00097c0 —▸ 0x7fffb0009f6e ◂— 'TERM_PROGRAM_VERSION=1.46.1'

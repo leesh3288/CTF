@@ -1,1 +1,4 @@
 /.vscode
+**/core
+**/.gdb_history
+
