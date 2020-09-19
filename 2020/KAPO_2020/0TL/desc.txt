@@ -1,0 +1,7 @@
+0ero Trust Login (0TL)
+100
+login with admin ^++^
+
+FYI: username : guest password : guest1234
+
+nc 52.79.243.7 1337
