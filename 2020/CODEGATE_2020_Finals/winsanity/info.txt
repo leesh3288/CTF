@@ -1,0 +1,2 @@
+# Compile Option (Windows)
+devenv.exe winsanity.sln /Rebuild "Release|x64"
