@@ -1,0 +1,2 @@
+$ uname -a
+Linux debian-mipsel 3.2.0-4-4kc-malta #1 Debian 3.2.51-1 mips GNU/Linux

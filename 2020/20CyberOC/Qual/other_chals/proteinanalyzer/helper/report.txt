@@ -1,0 +1,20 @@
+ 
+Protein Analyzer
+  FORTRAN90 version
+  calculate basic information about protein by parse given PDB file.
+ 
+  Enter the PDB file name :/tmp/bayd225h.pdb
+   Reading PDB file "/tmp/bayd225h.pdb".
+  
+  /tmp/bayd225h.pdb analyze result
+  ----------------------------------------
+  total atom num :    326
+  molar mass :   4610g/mol
+  center of mass 
+   x :  10.0596Å
+   y :   4.1796Å
+   z :   2.7626Å
+ 
+Protein Analyzer
+  Normal end of execution.
+ 

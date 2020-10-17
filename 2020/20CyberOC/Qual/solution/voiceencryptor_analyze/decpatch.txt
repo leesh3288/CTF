@@ -1,0 +1,34 @@
+; p = r8
+; n = rcx
+; d = edi
+; ctr = esi
+; res = rax
+
+ctr = 0
+do {
+    ctr++
+    d *= 2
+    res = (res * res) % n
+    if (d & 0x80000000) {
+        res = (res * p) % n;
+    }
+}
+while (ctr != 31)
+
+mov eax, edx
+xor esi, esi
+loop:
+inc esi
+xor edx, edx
+imul rax, rax
+div rcx
+mov eax, edx
+shl edi
+jns next
+imul rax, r8
+xor edx, edx
+div rcx
+mov eax, edx
+next:
+cmp esi, 31
+jnz loop
