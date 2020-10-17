@@ -1,6 +1,6 @@
 # 2020 Cyber Operations Challenge
 
-Participated as KAIST GoN with @ironore15, @sumango3, @
+Participated as KAIST GoN with ironore15, sumango3, heohyun73
 
 ## Qual
 
