@@ -32,3 +32,7 @@ Participated as KAIST GoN with ironore15, sumango3, heohyun73
 - Official Document
 - Rusty Metal
 - ...
+
+-----
+
+Note that some chal files might not be the exact same as distributed ones, as I've re-archived them from my workspace.
