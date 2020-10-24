@@ -16,6 +16,8 @@ Participated as KAIST GoN with ironore15, sumango3, heohyun73
 - Suspicious
 - The Secret Recipe
 - Voice Encryptor - Exploit
+- Forgery on Elliptic World
+- Lockpicker
 - ...
 
 ## Final
@@ -31,6 +33,8 @@ Participated as KAIST GoN with ironore15, sumango3, heohyun73
 - Anomalous
 - Official Document
 - Rusty Metal
+- Counterfeit
+- It is not shutting down
 - ...
 
 -----
