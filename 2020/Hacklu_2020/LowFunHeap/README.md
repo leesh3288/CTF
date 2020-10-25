@@ -29,6 +29,7 @@ My solution deals nothing about LFH internals except for the fact that chunk all
       - I used stack pivoting with `mov esp, ebp ; pop ebp ; ret` gadget at kernel32
       - Check out the if statement predicate just above of innermost while loop, see how `ebp` is set :)
       - Some useful functions are given (ex: sending 18 bytes from given buffer over socket)
+      - Requires about 1/0x18 bruteforce since we assume option '1' and '3' buffers are at index (0, 2) or (1, 3) ... up to (0x15, 0x17), probably can do better with derandomization but didn't bother
 
 ## Exploit Code
 
