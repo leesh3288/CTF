@@ -1,0 +1,5 @@
+recon_url:kaf-public.s3-eu-west-1.amazonaws.com/APT41/Recon.exe
+recon_outfile:log.txt
+recon_exe:Recon.exe
+config_url:kaf-public.s3-eu-west-1.amazonaws.com/APT41/config_1337_2020_COVID_WhyAreYouEvenTryingToGuessThisDude.txt
+server_url:kaf-public.s3-eu-west-1.amazonaws.com/APT41/Server_1337_2020_COVID_WhyAreYouEvenTryingToGuessThisDude.exe
