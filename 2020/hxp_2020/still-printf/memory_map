@@ -1,0 +1,46 @@
+0x7f36207588d0 (.bss of libc-2.28.so)
+0x7ffe7b1f1af0 (buffer address, offset 0x8 from printf ret)
+0xfbad2288
+(nil)
+0x7f362075d500 (.bss of libc-2.28.so)
+0x70257c70257c7025 (original: ld-2.28.so base + 0x1000) (buffer data)
+0x257c70257c70257c (original: 0)
+0x7c70257c70257c70 (original: init @ still-printf)
+0x70257c70257c7025 (original: start @ still-printf)
+0x257c70257c70257c (original: &argc, offset 0x110 from buffer addr)
+0x70257c70257c70   (original: 0)
+0x564f55896200 (init @ still-printf)
+0x7f36205bf09b (libc_start_main_return @ 0x2409b)
+(nil)
+0x7ffe7b1f1c08 (argv, offset 0x118 from buffer addr) -> argv[0] -> c-string
+0x100040000
+
+Breakpoint 1, __GI_exit (status=0) at exit.c:139
+139     exit.c: No such file or directory.
+(gdb) i proc m
+process 557
+Mapped address spaces:
+
+          Start Addr           End Addr       Size     Offset objfile
+      0x564f55895000     0x564f55896000     0x1000        0x0 /home/ctf/still-printf
+      0x564f55896000     0x564f55897000     0x1000     0x1000 /home/ctf/still-printf
+      0x564f55897000     0x564f55898000     0x1000     0x2000 /home/ctf/still-printf
+      0x564f55898000     0x564f55899000     0x1000     0x2000 /home/ctf/still-printf
+      0x564f56a5e000     0x564f56a7f000    0x21000        0x0 [heap]
+      0x7f362059b000     0x7f36205bd000    0x22000        0x0 /lib/x86_64-linux-gnu/libc-2.28.so
+      0x7f36205bd000     0x7f3620705000   0x148000    0x22000 /lib/x86_64-linux-gnu/libc-2.28.so
+      0x7f3620705000     0x7f3620751000    0x4c000   0x16a000 /lib/x86_64-linux-gnu/libc-2.28.so
+      0x7f3620751000     0x7f3620752000     0x1000   0x1b6000 /lib/x86_64-linux-gnu/libc-2.28.so
+      0x7f3620752000     0x7f3620756000     0x4000   0x1b6000 /lib/x86_64-linux-gnu/libc-2.28.so
+      0x7f3620756000     0x7f3620758000     0x2000   0x1ba000 /lib/x86_64-linux-gnu/libc-2.28.so
+      0x7f3620758000     0x7f362075e000     0x6000        0x0 
+      0x7f3620761000     0x7f3620762000     0x1000        0x0 /lib/x86_64-linux-gnu/ld-2.28.so
+      0x7f3620762000     0x7f3620780000    0x1e000     0x1000 /lib/x86_64-linux-gnu/ld-2.28.so
+      0x7f3620780000     0x7f3620788000     0x8000    0x1f000 /lib/x86_64-linux-gnu/ld-2.28.so
+      0x7f3620788000     0x7f3620789000     0x1000    0x26000 /lib/x86_64-linux-gnu/ld-2.28.so
+      0x7f3620789000     0x7f362078a000     0x1000    0x27000 /lib/x86_64-linux-gnu/ld-2.28.so
+      0x7f362078a000     0x7f362078b000     0x1000        0x0 
+      0x7ffe7b1d1000     0x7ffe7b1f2000    0x21000        0x0 [stack]
+      0x7ffe7b1fa000     0x7ffe7b1fd000     0x3000        0x0 [vvar]
+      0x7ffe7b1fd000     0x7ffe7b1ff000     0x2000        0x0 [vdso]
+  0xffffffffff600000 0xffffffffff601000     0x1000        0x0 [vsyscall]
