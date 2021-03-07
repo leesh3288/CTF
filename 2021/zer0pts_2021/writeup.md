@@ -56,6 +56,8 @@ Solved w/ [@Reinose]
 - Use mmap with `MAP_FIXED` to replace already mapped region & allow emulated code to use it
 - Fix things (if necessary), write shellcode & enjoy RCE
 
+PS. After dropping shell, I checked `uname -a` to see that the kernel version is `4.15` - this means that `MAP_FIXED_NOREPLACE` is not supported. However, man page hints that ```older kernels which do not recognize the MAP_FIXED_NOREPLACE flag will typically (upon detecting a collision with a preexisting mapping) fall back to a "non-MAP_FIXED" type of behavior: they will return an address that is different from the requested address.``` which means that the emulator will return the same results, effectively acting as the intended solution.
+
 
 [@whysw]: https://twitter.com/whysw_p
 [@Reinose]: https://twitter.com/_Reinose_en
