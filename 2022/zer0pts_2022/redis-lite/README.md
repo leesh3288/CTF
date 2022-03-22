@@ -11,6 +11,8 @@ A "lite Redis" Key-Value DB which follows [RESP](https://redis.io/topics/protoco
 
 Vulnerability exists in `resp_receive_bulk` where sending bulk string of length -3 will result in overflow, i.e. receives infinite byte-by-byte input in a `calloc(1, 0)` buffer.
 
+A good article about exploiting such "wildcopy" vulns: [Taming the wild copy: Parallel Thread Corruption](https://googleprojectzero.blogspot.com/2015/03/taming-wild-copy-parallel-thread.html?m=1) by Project Zero
+
 
 ## Exploit
 
