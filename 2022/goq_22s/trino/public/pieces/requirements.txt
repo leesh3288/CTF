@@ -1,0 +1,6 @@
+Flask==2.0.1
+Flask-Session==0.4.0
+redis==3.5.3
+python-memcached==1.59
+pycurl==7.44.1
+whatwg-url==2018.8.26

@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  pieces:
+    build:
+      context: pieces
+    depends_on:
+      - albireo
+      - rendezvous
+      - mirai
+    ports:
+      - 15961:15961
+    networks:
+      - internal
+
+  albireo:
+    build:
+      context: albireo
+    networks:
+      - internal
+
+  rendezvous:
+    build:
+      context: rendezvous
+    networks:
+      - internal
+
+  mirai:
+    build:
+      context: mirai
+    networks:
+      - internal
+
+networks:
+  internal:

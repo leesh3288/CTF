@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Showdown!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='github-markdown-dark.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+</head>
+<body>
+    <div class="left half">
+        <textarea id="code" name="code" onkeydown="onKeyDown(event)" placeholder="Enter your Markdown code here, then press Ctrl+Enter to render it in HTML!"></textarea>
+    </div>
+    <div class="right half">
+        <article id="html" class="markdown-body">
+            <p>Your Markdown code will be rendered here in HTML!</p>
+        </article>
+    </div>
+</body>
+</html>
