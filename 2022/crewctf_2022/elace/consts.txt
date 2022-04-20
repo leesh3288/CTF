@@ -1,0 +1,1538 @@
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+/home/xion/.local/lib/python3.8/site-packages/pwnlib/tubes/tube.py:822: BytesWarning: Text is not bytes; assuming ASCII, no guarantees. See https://docs.pwntools.com/#bytes
+  res = self.recvuntil(delim, timeout=timeout)
+i = 0
+[+] Receiving all data: Done (7B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'[None]\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 1
+[+] Receiving all data: Done (14B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"['encodings']\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 2
+[+] Receiving all data: Done (46B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"['/usr/lib/python3.10/encodings/__init__.py']\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 3
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 4
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 5
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 6
+[+] Receiving all data: Done (121B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[[<class 'zipimport.zipimporter'>, <function FileFinder.path_hook.<locals>.path_hook_for_FileFinder at 0x7f349ef60af0>]]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 7
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 8
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 9
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 10
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'tuple'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 11
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 12
+[+] Receiving all data: Done (53B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class '_frozen_importlib_external._LoaderBasics'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 13
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 14
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 15
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 16
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'tuple'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 17
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 18
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'tuple'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 19
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 20
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 21
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 22
+[+] Receiving all data: Done (41B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class '_frozen_importlib.ModuleSpec'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 23
+[+] Receiving all data: Done (219B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[{'name': 'time', 'loader': <class '_frozen_importlib.BuiltinImporter'>, 'origin': 'built-in', 'loader_state': None, 'submodule_search_locations': None, '_set_fileattr': False, '_cached': None, '_initializing': False}]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 24
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 25
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 26
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 27
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 28
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'tuple'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 29
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 30
+[+] Receiving all data: Done (7B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'[None]\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 31
+[+] Receiving all data: Done (371B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[[('.cpython-310-x86_64-linux-gnu.so', <class '_frozen_importlib_external.ExtensionFileLoader'>), ('.abi3.so', <class '_frozen_importlib_external.ExtensionFileLoader'>), ('.so', <class '_frozen_importlib_external.ExtensionFileLoader'>), ('.py', <class '_frozen_importlib_external.SourceFileLoader'>), ('.pyc', <class '_frozen_importlib_external.SourcelessFileLoader'>)]]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 32
+[+] Receiving all data: Done (24B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"['/usr/lib/python3.10']\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 33
+[+] Receiving all data: Done (15B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'[1649599107.0]\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 34
+[+] Receiving all data: Done (2.71KB)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[{'asyncore.py', 'pydoc_data', 'signal.py', '_sitebuiltins.py', '_weakrefset.py', 'quopri.py', 'xdrlib.py', '_threading_local.py', 'glob.py', 'pydoc.py', 'json', '_osx_support.py', 'bdb.py', 'gzip.py', '_markupbase.py', 'xmlrpc', 'queue.py', 'platform.py', 'codecs.py', 'traceback.py', '_sysconfigdata__linux_x86_64-linux-gnu.py', 'fractions.py', 'bisect.py', 'collections', 'pkgutil.py', 'dbm', '__pycache__', 'sre_constants.py', 'numbers.py', 'random.py', 'textwrap.py', 'cProfile.py', 'sre_parse.py', 'html', 'email', 'sched.py', 'nturl2path.py', 'this.py', '_py_abc.py', 'hmac.py', 'contextlib.py', 'pickletools.py', 'profile.py', 'calendar.py', 'wave.py', '_pydecimal.py', 'dis.py', 'fileinput.py', 'trace.py', 'lib-dynload', '_aix_support.py', 'ntpath.py', 'modulefinder.py', 'sre_compile.py', 'datetime.py', 'pickle.py', 'argparse.py', 'stringprep.py', 'tabnanny.py', 'contextvars.py', 'ftplib.py', 'linecache.py', '__future__.py', 'stat.py', 'tokenize.py', 'configparser.py', 'ssl.py', 'distutils', 'types.py', 'io.py', 'threading.py', 'ctypes', 'codeop.py', 'doctest.py', 'compileall.py', 'tracemalloc.py', 'concurrent', 'venv', 'dataclasses.py', 'keyword.py', 'struct.py', 'decimal.py', '_collections_abc.py', 'pyclbr.py', 'functools.py', 'statistics.py', 'base64.py', 'unittest', 'weakref.py', 'code.py', 'sitecustomize.py', 'filecmp.py', 'inspect.py', 'typing.py', 'smtpd.py', 'wsgiref', 'cgitb.py', 'posixpath.py', 'telnetlib.py', 'warnings.py', '_strptime.py', 'importlib', 'fnmatch.py', 'timeit.py', 'abc.py', 'runpy.py', 'graphlib.py', 'colorsys.py', 'http', 'heapq.py', 'asyncio', 'imaplib.py', 'sqlite3', 'ipaddress.py', 'reprlib.py', 'cmd.py', 'pty.py', 'shelve.py', 'csv.py', 'pprint.py', 'optparse.py', 'uu.py', 'tarfile.py', 'chunk.py', 'subprocess.py', 'os.py', 'shutil.py', 'sysconfig.py', 'logging', 'locale.py', 'xml', 'symtable.py', 'urllib', 're.py', 'hashlib.py', 'nntplib.py', 'test', 'difflib.py', 'mimetypes.py', 'lzma.py', 'mailbox.py', 'uuid.py', 'copyreg.py', 'pdb.py', '__phello__.foo.py', '_compat_pickle.py', 'pathlib.py', 'site.py', 'selectors.py', 'sunau.py', 'token.py', 'antigravity.py', 'encodings', 'turtle.py', 'py_compile.py', 'curses', 'rlcompleter.py', 'pipes.py', 'webbrowser.py', 'mailcap.py', 'cgi.py', 'bz2.py', 'getpass.py', '_pyio.py', 'copy.py', 'gettext.py', 'tempfile.py', 'poplib.py', 'plistlib.py', 'secrets.py', 'imp.py', 'opcode.py', 'sndhdr.py', 'pstats.py', 'genericpath.py', 'aifc.py', 'socket.py', 'multiprocessing', 'enum.py', 'zipfile.py', 'netrc.py', 'tty.py', '_bootsubprocess.py', 'imghdr.py', 'zipimport.py', 'crypt.py', 'shlex.py', 'ast.py', 'getopt.py', 'smtplib.py', 'string.py', 'LICENSE.txt', 'socketserver.py', 'binhex.py', 'operator.py', 'zoneinfo', '_compression.py', 'asynchat.py', 'zipapp.py'}]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 35
+[+] Receiving all data: Done (8B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'[set()]\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 36
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 37
+[+] Receiving all data: Done (20B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"['encodings.utf_8']\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 38
+[+] Receiving all data: Done (43B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"['/usr/lib/python3.10/encodings/utf_8.py']\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 39
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 40
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 41
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 42
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 43
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 44
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 45
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 46
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'tuple'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 47
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 48
+[+] Receiving all data: Done (8B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'[False]\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 49
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 50
+[+] Receiving all data: Done (31B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'[<\x15 object at 0x7f4e93e55bc0>]\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 51
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 52
+[+] Receiving all data: Done (56B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class '_frozen_importlib_external.SourceFileLoader'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 53
+[+] Receiving all data: Done (77B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[{'name': 'encodings', 'path': '/usr/lib/python3.10/encodings/__init__.py'}]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 54
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 55
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 56
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 57
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 58
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'tuple'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 59
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 60
+[+] Receiving all data: Done (11B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"['strict']\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 61
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 62
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 63
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 64
+[+] Receiving all data: Done (41B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class '_frozen_importlib.ModuleSpec'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 65
+[+] Receiving all data: Done (376B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[{'name': 'encodings', 'loader': <_frozen_importlib_external.SourceFileLoader object at 0x7f8a2a264ac0>, 'origin': '/usr/lib/python3.10/encodings/__init__.py', 'loader_state': None, 'submodule_search_locations': ['/usr/lib/python3.10/encodings'], '_set_fileattr': True, '_cached': '/usr/lib/python3.10/encodings/__pycache__/__init__.cpython-310.pyc', '_initializing': False}]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 66
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 67
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 68
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 69
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 70
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'tuple'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 71
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 72
+[+] Receiving all data: Done (20B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'OSError'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 73
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 74
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 75
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 76
+[+] Receiving all data: Done (50B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class '_frozen_importlib_external.FileFinder'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 77
+[+] Receiving all data: Done (3.19KB)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[{'_loaders': [('.cpython-310-x86_64-linux-gnu.so', <class '_frozen_importlib_external.ExtensionFileLoader'>), ('.abi3.so', <class '_frozen_importlib_external.ExtensionFileLoader'>), ('.so', <class '_frozen_importlib_external.ExtensionFileLoader'>), ('.py', <class '_frozen_importlib_external.SourceFileLoader'>), ('.pyc', <class '_frozen_importlib_external.SourcelessFileLoader'>)], 'path': '/usr/lib/python3.10', '_path_mtime': 1649599107.0, '_path_cache': {'shelve.py', 'unittest', 'codecs.py', 'xmlrpc', 'dataclasses.py', 'hashlib.py', 'aifc.py', 'shutil.py', 'quopri.py', '_compression.py', '_py_abc.py', 'textwrap.py', 'lzma.py', 'nntplib.py', 'csv.py', 'cProfile.py', 'fileinput.py', 'html', 'traceback.py', 'pathlib.py', 'site.py', 'os.py', 'sqlite3', '_aix_support.py', 'posixpath.py', 'pipes.py', 'typing.py', '__pycache__', 'fractions.py', 'sre_parse.py', 'mimetypes.py', 'socket.py', 'compileall.py', 'heapq.py', 'smtplib.py', 'chunk.py', 'imaplib.py', 'warnings.py', 'pty.py', 'io.py', 'types.py', 'ftplib.py', 'fnmatch.py', 'linecache.py', 'inspect.py', 'cmd.py', 'tokenize.py', '_markupbase.py', 'pkgutil.py', 'codeop.py', 'timeit.py', 'pstats.py', 'ast.py', 'colorsys.py', 'email', 'sunau.py', 'locale.py', 'concurrent', 'secrets.py', 'ssl.py', 'bisect.py', 'webbrowser.py', 'importlib', '_strptime.py', 'opcode.py', 'sched.py', 'optparse.py', '__phello__.foo.py', '__future__.py', '_weakrefset.py', 'argparse.py', 'pydoc_data', '_sysconfigdata__linux_x86_64-linux-gnu.py', 'filecmp.py', 'logging', 'sitecustomize.py', 'statistics.py', 'selectors.py', 'token.py', 'lib-dynload', 'collections', 'calendar.py', 'antigravity.py', 'nturl2path.py', 'copyreg.py', 'trace.py', 'struct.py', '_sitebuiltins.py', 'rlcompleter.py', 'tarfile.py', '_pydecimal.py', 'telnetlib.py', 'zipapp.py', 'multiprocessing', '_threading_local.py', 'string.py', 'getopt.py', 'netrc.py', 'profile.py', 'runpy.py', '_pyio.py', '_bootsubprocess.py', 'ntpath.py', 'http', 'crypt.py', 'sndhdr.py', 'symtable.py', 'sysconfig.py', 'glob.py', 'uuid.py', '_collections_abc.py', 'enum.py', 'stat.py', 'smtpd.py', 'reprlib.py', 'platform.py', 'difflib.py', 'ipaddress.py', 'operator.py', 'test', '_compat_pickle.py', 'gettext.py', 'uu.py', 'doctest.py', 'subprocess.py', 'plistlib.py', 'pdb.py', 'pickle.py', 'turtle.py', 'stringprep.py', 'graphlib.py', 'venv', 'mailcap.py', 'socketserver.py', 'hmac.py', 'abc.py', 'genericpath.py', 'zipimport.py', 'cgi.py', 'contextvars.py', 'pickletools.py', '_osx_support.py', 'bdb.py', 'pprint.py', 'poplib.py', 'imghdr.py', 'datetime.py', 'binhex.py', 'imp.py', 'random.py', 'code.py', 'xdrlib.py', 'weakref.py', 'cgitb.py', 'asynchat.py', 'numbers.py', 'threading.py', 'tracemalloc.py', 'zipfile.py', 'json', 'sre_constants.py', 'mailbox.py', 'signal.py', 'urllib', 'sre_compile.py', 'LICENSE.txt', 'this.py', 'queue.py', 'shlex.py', 'encodings', 'distutils', 'curses', 'dis.py', 'py_compile.py', 'tty.py', 'asyncore.py', 'dbm', 'gzip.py', 'configparser.py', 'contextlib.py', 'bz2.py', 'zoneinfo', 'wave.py', 're.py', 'keyword.py', 'xml', 'decimal.py', 'pydoc.py', 'functools.py', 'asyncio', 'ctypes', 'wsgiref', 'base64.py', 'copy.py', 'pyclbr.py', 'tempfile.py', 'getpass.py', 'modulefinder.py', 'tabnanny.py'}, '_relaxed_path_cache': set()}]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 78
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 79
+[+] Receiving all data: Done (31B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'[<M object at 0x7f17e93887b0>]\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 80
+[+] Receiving all data: Done (31B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'[<9 object at 0x7f56f2d0c6f0>]\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 81
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 82
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'tuple'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 83
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 84
+[+] Receiving all data: Done (38B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'codecs.IncrementalEncoder'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 85
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 86
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'bytes'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 87
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 88
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 89
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 90
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 91
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 92
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'bytes'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 93
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 94
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 95
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 96
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 97
+[+] Receiving all data: Done (11B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"['codecs']\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 98
+[+] Receiving all data: Done (34B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"['/usr/lib/python3.10/codecs.py']\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 99
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 100
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 101
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 102
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 103
+[+] Receiving all data: Done (31B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'[<9 object at 0x7f7781a46df0>]\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 104
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 105
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 106
+[+] Receiving all data: Done (41B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class '_frozen_importlib.ModuleSpec'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 107
+[+] Receiving all data: Done (320B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[{'name': 'codecs', 'loader': <_frozen_importlib_external.SourceFileLoader object at 0x7fa393ff4d00>, 'origin': '/usr/lib/python3.10/codecs.py', 'loader_state': None, 'submodule_search_locations': None, '_set_fileattr': True, '_cached': '/usr/lib/python3.10/__pycache__/codecs.cpython-310.pyc', '_initializing': False}]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 108
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 109
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 110
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'bytes'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 111
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 112
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 113
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 114
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 115
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 116
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'bytes'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 117
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 118
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 119
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 120
+[+] Receiving all data: Done (371B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[[('.cpython-310-x86_64-linux-gnu.so', <class '_frozen_importlib_external.ExtensionFileLoader'>), ('.abi3.so', <class '_frozen_importlib_external.ExtensionFileLoader'>), ('.so', <class '_frozen_importlib_external.ExtensionFileLoader'>), ('.py', <class '_frozen_importlib_external.SourceFileLoader'>), ('.pyc', <class '_frozen_importlib_external.SourcelessFileLoader'>)]]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 121
+[+] Receiving all data: Done (31B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'[<& object at 0x7f326b154c60>]\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 122
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 123
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 124
+[+] Receiving all data: Done (56B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class '_frozen_importlib_external.SourceFileLoader'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 125
+[+] Receiving all data: Done (62B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[{'name': 'codecs', 'path': '/usr/lib/python3.10/codecs.py'}]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 126
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 127
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 128
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'bytes'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 129
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 130
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 131
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 132
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 133
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 134
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 135
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 136
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'tuple'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 137
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 138
+[+] Receiving all data: Done (7B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'[None]\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 139
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 140
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 141
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 142
+[+] Receiving all data: Done (18B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"[<class 'tuple'>]\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 143
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 144
+[+] Receiving all data: Done (9B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"['self']\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 145
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 146
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'bytes'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 147
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 148
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 149
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 150
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 151
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 152
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'bytes'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 153
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 154
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 155
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 156
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 157
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 158
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 159
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 160
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'tuple'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 161
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 162
+[+] Receiving all data: Done (548B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b" Encodes the object input and returns a tuple (output\n            object, length consumed).\n\n            errors defines the error handling to apply. It defaults to\n            'strict' handling.\n\n            The method may not store state in the Codec instance. Use\n            StreamWriter for codecs which have to keep state in order to\n            make encoding efficient.\n\n            The encoder must be able to handle zero length input and\n            return an empty object of the output object type in this\n            situation.\n\n        \n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 163
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 164
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 165
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 166
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'tuple'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 167
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 168
+[+] Receiving all data: Done (20B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'NotImplementedError\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 169
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 170
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'bytes'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 171
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 172
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 173
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 174
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 175
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 176
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 177
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 178
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'tuple'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 179
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 180
+[+] Receiving all data: Done (755B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b" Decodes the object input and returns a tuple (output\n            object, length consumed).\n\n            input must be an object which provides the bf_getreadbuf\n            buffer slot. Python strings, buffer objects and memory\n            mapped files are examples of objects providing this slot.\n\n            errors defines the error handling to apply. It defaults to\n            'strict' handling.\n\n            The method may not store state in the Codec instance. Use\n            StreamReader for codecs which have to keep state in order to\n            make decoding efficient.\n\n            The decoder must be able to handle zero length input and\n            return an empty object of the output object type in this\n            situation.\n\n        \n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 181
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 182
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'bytes'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 183
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 184
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 185
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 186
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 187
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 188
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 189
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 190
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'tuple'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 191
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 192
+[+] Receiving all data: Done (7B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'strict\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 193
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 194
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 195
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 196
+[+] Receiving all data: Done (39B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class '_frozen_importlib.ModuleSpec'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 197
+[+] Receiving all data: Done (345B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"{'name': 'encodings.utf_8', 'loader': <_frozen_importlib_external.SourceFileLoader object at 0x7fbb6e27d360>, 'origin': '/usr/lib/python3.10/encodings/utf_8.py', 'loader_state': None, 'submodule_search_locations': None, '_set_fileattr': True, '_cached': '/usr/lib/python3.10/encodings/__pycache__/utf_8.cpython-310.pyc', '_initializing': False}\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 198
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 199
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 200
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'bytes'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 201
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 202
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 203
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 204
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 205
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 206
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 207
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 208
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'tuple'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 209
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 210
+[+] Receiving all data: Done (66B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'\n        Encodes input and returns the resulting object.\n        \n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 211
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 212
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'bytes'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 213
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 214
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 215
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 216
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 217
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 218
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'bytes'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 219
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 220
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 221
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 222
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 223
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 224
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'bytes'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 225
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 226
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 227
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 228
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 229
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 230
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 231
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 232
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'tuple'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 233
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 234
+[+] Receiving all data: Done (6B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'False\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 235
+[+] Receiving all data: Done (29B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b'<M object at 0x7f155f535fc0>\n'
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 236
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 237
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 238
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'tuple'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 239
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 240
+[+] Receiving all data: Done (30B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'codecs.StreamReader'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 241
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 242
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'bytes'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 243
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 244
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 245
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 246
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 247
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 248
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'bytes'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 249
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 250
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 251
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 252
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 253
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 254
+[+] Receiving all data: Done (16B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b"<class 'bytes'>\n"
+
+[+] Opening connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf on port 1337: Done
+i = 255
+[+] Receiving all data: Done (0B)
+[*] Closed connection to even-less-arbitrary-code-execution.crewctf-2022.crewc.tf port 1337
+b''
