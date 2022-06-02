@@ -1,0 +1,40 @@
+BIOS_FLASH:FFFFB92F loc_FFFFB92F:                           ; CODE XREF: BIOS_FLASH:FFFFB94D↓j
+BIOS_FLASH:FFFFB92F                 mov     eax, 64h ; 'd'
+BIOS_FLASH:FFFFB934                 call    sub_FFFF8ED7
+BIOS_FLASH:FFFFB939                 cmp     eax, 0FFFFFFFFh
+BIOS_FLASH:FFFFB93C                 jz      short loc_FFFFB94A
+BIOS_FLASH:FFFFB93E                 imul    bx, 0Ah
+BIOS_FLASH:FFFFB942                 movzx   eax, al
+BIOS_FLASH:FFFFB945                 lea     ebx, [ebx+eax-30h]
+BIOS_FLASH:FFFFB949                 inc     edi
+BIOS_FLASH:FFFFB94A
+BIOS_FLASH:FFFFB94A loc_FFFFB94A:                           ; CODE XREF: BIOS_FLASH:FFFFB93C↑j
+BIOS_FLASH:FFFFB94A                 cmp     edi, 5
+BIOS_FLASH:FFFFB94D                 jnz     short loc_FFFFB92F
+BIOS_FLASH:FFFFB94F                 lea     eax, [ebp+4]
+BIOS_FLASH:FFFFB952                 lea     edx, [esp+64h]
+BIOS_FLASH:FFFFB956                 call    sub_FFFF7D93
+BIOS_FLASH:FFFFB95B                 xor     ecx, ecx
+BIOS_FLASH:FFFFB95D                 test    eax, eax
+BIOS_FLASH:FFFFB95F                 jz      short loc_FFFFB99C
+BIOS_FLASH:FFFFB961
+BIOS_FLASH:FFFFB961 loc_FFFFB961:                           ; CODE XREF: BIOS_FLASH:FFFFB990↓j
+BIOS_FLASH:FFFFB961                 cmp     ecx, [esp+64h]
+BIOS_FLASH:FFFFB965                 jge     short loc_FFFFB992
+BIOS_FLASH:FFFFB967                 mov     edx, ebx
+BIOS_FLASH:FFFFB969                 shr     dx, 0Fh
+BIOS_FLASH:FFFFB96D                 mov     ebp, ebx
+BIOS_FLASH:FFFFB96F                 shr     bp, 0Ah
+BIOS_FLASH:FFFFB973                 xor     edx, ebp
+BIOS_FLASH:FFFFB975                 mov     ebp, ebx
+BIOS_FLASH:FFFFB977                 shr     bp, 8
+BIOS_FLASH:FFFFB97B                 xor     edx, ebp
+BIOS_FLASH:FFFFB97D                 mov     ebp, ebx
+BIOS_FLASH:FFFFB97F                 shr     bp, 3
+BIOS_FLASH:FFFFB983                 xor     edx, ebp
+BIOS_FLASH:FFFFB985                 and     edx, 1
+BIOS_FLASH:FFFFB988                 shl     ebx, 1
+BIOS_FLASH:FFFFB98A                 or      ebx, edx
+BIOS_FLASH:FFFFB98C                 xor     [eax+ecx], bl
+BIOS_FLASH:FFFFB98F                 inc     ecx
+BIOS_FLASH:FFFFB990                 jmp     short loc_FFFFB961

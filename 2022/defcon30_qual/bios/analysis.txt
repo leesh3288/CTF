@@ -1,0 +1,5 @@
+key: ebx
+cycle:
+edx = ((ebx >> 0xf) ^ (ebx >> 0xa) ^ (ebx >> 0x8) ^ (ebx >> 0x3)) & 1
+ebx = ebx << 1 | edx
+encrypted[ecx] ^= bl
