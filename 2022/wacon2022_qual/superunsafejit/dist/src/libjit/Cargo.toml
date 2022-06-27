@@ -1,0 +1,11 @@
+[package]
+name = "libjit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2.126"
+
+[dependencies.iced-x86]
+version = "1.17.0"
+features = ["code_asm"]
