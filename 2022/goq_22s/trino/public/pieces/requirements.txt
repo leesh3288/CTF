@@ -1,4 +1,4 @@
-Flask==2.0.1
+Flask==2.3.2
 Flask-Session==0.4.0
 redis==3.5.3
 python-memcached==1.59
